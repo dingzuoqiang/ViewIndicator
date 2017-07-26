@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ViewIndicator">
+        <attr name="selectedColor" format="color|reference" />
+        <attr name="unSelectedColor" format="color|reference" />
+        <attr name="indicatorShape" format="enum">
+            <enum name="rect" value="0" />
+            <enum name="oval" value="1" />
+        </attr>
+        <attr name="selectedHeight" format="dimension|reference" />
+        <attr name="selectedWidth" format="dimension|reference" />
+        <attr name="unSelectedHeight" format="dimension|reference" />
+        <attr name="unSelectedWidth" format="dimension|reference" />
+        <attr name="indicatorSpace" format="dimension|reference" />
+        <attr name="cornerRadii" format="dimension|reference" />
+    </declare-styleable>
+</resources>

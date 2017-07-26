@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.dzq.viewindicator.MainActivity">
+
+
+    <com.dzq.widget.ViewIndicator
+        android:id="@+id/lay_indicator1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        app:indicatorShape="oval"
+        app:indicatorSpace="5dp"
+        app:selectedColor="#ec407a"
+        app:selectedHeight="5dp"
+        app:selectedWidth="5dp"
+        app:unSelectedColor="#71d9e7"
+        app:unSelectedHeight="5dp"
+        app:unSelectedWidth="5dp" />
+
+    <com.dzq.widget.ViewIndicator
+        android:id="@+id/lay_indicator2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:indicatorShape="rect"
+        app:indicatorSpace="5dp"
+        app:selectedColor="#ec407a"
+        app:selectedHeight="5dp"
+        app:selectedWidth="5dp"
+        app:unSelectedColor="#71d9e7"
+        app:unSelectedHeight="5dp"
+        app:unSelectedWidth="5dp" />
+
+    <com.dzq.widget.ViewIndicator
+        android:id="@+id/lay_indicator3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:indicatorShape="rect"
+        app:indicatorSpace="5dp"
+        app:selectedColor="#ec407a"
+        app:selectedHeight="15dp"
+        app:selectedWidth="5dp"
+        app:unSelectedColor="#71d9e7"
+        app:unSelectedHeight="5dp"
+        app:unSelectedWidth="15dp" />
+
+    <com.dzq.widget.ViewIndicator
+        android:id="@+id/lay_indicator4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:cornerRadii="5dp"
+        app:indicatorShape="rect"
+        app:indicatorSpace="10dp"
+        app:selectedColor="#ec407a"
+        app:selectedHeight="10dp"
+        app:selectedWidth="20dp"
+        app:unSelectedColor="#71d9e7"
+        app:unSelectedHeight="10dp"
+        app:unSelectedWidth="20dp" />
+
+
+</LinearLayout>
